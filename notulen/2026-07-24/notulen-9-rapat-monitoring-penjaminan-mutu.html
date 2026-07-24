@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cetak Notulen - Rapat Monitoring Penjaminan Mutu</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #222;
+            padding: 40px;
+        }
+        .no-print { text-align: center; margin-bottom: 24px; }
+        .no-print button {
+            padding: 10px 24px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.95em;
+        }
+        header {
+            border-bottom: 3px solid #333;
+            padding-bottom: 16px;
+            margin-bottom: 24px;
+        }
+        h1 { font-size: 1.5em; margin-bottom: 6px; }
+        .meta { color: #555; font-size: 0.9em; }
+        .field { margin-bottom: 18px; }
+        .field .label { font-weight: 700; font-size: 0.85em; text-transform: uppercase; color: #555; margin-bottom: 4px; }
+        .field .value { white-space: pre-wrap; line-height: 1.8; }
+        footer { margin-top: 40px; font-size: 0.8em; color: #888; text-align: right; }
+        @media print {
+            .no-print { display: none; }
+            body { padding: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="no-print">
+        <button onclick="window.print()">&#128424; Cetak / Simpan sebagai PDF</button>
+    </div>
+    <header>
+        <h1>Notulen: Rapat Monitoring Penjaminan Mutu</h1>
+        <div class="meta">24 Jul 2026 10:04 &middot; 0.00 MB &middot; Bukti Dokumentasi: https://github.com/kungfumas/filedokumentasi/tree/main/photos/2026-07-24</div>
+    </header>
+    <div class="field">
+        <div class="label">Ringkasan Notulen</div>
+        <div class="value">Rapat dihadiri oleh :
+1. Dekan FTII
+2. Ketua Program Studi MTI
+3. Ketua Program Studi Teknik Informatika
+4. Ketua Program Studi SIstem Informasi
+5. Ketua Program Studi Teknik Industri
+6. Unit Penjaminan Mutu FTII Unisbank  Th Wismarini, M. Kom.
+Hasil : 
+Dekan Fakultas Teknologi Informasi dan Ilmu Komputer (FTII) menyampaikan bahwa kegiatan ini bertujuan untuk melakukan monitoring terhadap pendidikan, penelitian, dan pengabdian kepada masyarakat. Monitoring akan dilakukan hingga ujian tengah semester.
+
+Monitoring  dilakukan sampai dengan Ujian Tengah Semester (UTS) yang dipimpin oleh Ibu Wismarini (UJM)  menjelaskan bahwa rencana monitoring akan menggunakan sistem penjaminan mutu. Namun, karena sistem tersebut belum siap, proses monitoring akan dilakukan secara manual.
+
+Ketua program studi akan segera menyusun rencana monitoring sebelum tanggal 27 Juli 2026.
+
+Tindak Lanjut :
+Mengisi Borang Monitoring dan diselesaikan tanggal 27 Juli 20266</div>
+    </div>
+    <footer>Dicetak dari Isi Notulen WebPenelitian</footer>
+    <script>
+        window.addEventListener('load', function () {
+            setTimeout(function () { window.print(); }, 300);
+        });
+    </script>
+</body>
+</html>
